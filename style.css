@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(./images/backgnd.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 5px 5px;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  background-color: rgb(236, 236, 236);
+}
+nav img {
+  width: 60px;
+}
+nav img:hover {
+  width: 80px;
+  transition: 0.5s;
+}
+.n-links {
+  flex: 1;
+  text-align: right;
+}
+.n-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  postion: relative;
+}
+.n-links ul li a {
+  color: rgba(13, 10, 24, 0.918);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text1 {
+  color: azure;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text1 h1 {
+  color: rgb(27, 245, 245);
+  font-size: 50px;
+}
+.text1 p {
+  color: lightyellow;
+  font-size: 25px;
+}
+.link-button {
+  display: inline-block;
+  color: beige;
+  text-decoration: none;
+  border: 2px solid wheat;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+}
+.link-button:hover {
+  border: 2px solid brown;
+  background-color: brown;
+  transition: 0.5s;
+}
+.selection {
+  text-align: center;
+  width: 100%;
+  color: blueviolet;
+  padding: 20px;
+}
+.categories {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.categories h1 {
+  font-size: 30px;
+  color: indigo;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.sport {
+  flex-basis: 33%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 20px 40px 20px;
+}
+.sport img {
+  width: 100%;
+  height: 100%;
+}
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover {
+  background: rgba(68, 68, 73, 0.582);
+}
+
+.sneakers {
+  flex-basis: 33%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 20px 40px 20px;
+}
+.sneakers img {
+  width: 100%;
+  height: 100%;
+}
+.formal {
+  flex-basis: 33%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 20px 40px 20px;
+}
+.formal img {
+  width: 100%;
+  height: 100%;
+}
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: rgb(251, 252, 247);
+  font-size: 30px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover h3 {
+  bottom: 50%;
+  opacity: 1;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-color: antiquewhite;
+}
+.footer h3 {
+  font-size: 20px;
+}
+.footer p {
+  font-size: 17px;
+}
+.icons h3 {
+  font-size: 20px;
+}
+.icons {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#red {
+  color: crimson;
+  font-size: 30px;
+}
+#red:hover {
+  transition: 0.25s;
+  font-size: 45px;
+}
+#meta {
+  color: blue;
+}
+#meta:hover {
+  transition: 0.25s;
+  font-size: 45px;
+}
+#blue {
+  color: rgb(0, 184, 220);
+}
+#blue:hover {
+  transition: 0.25s;
+  font-size: 45px;
+}
+#job {
+  color: blue;
+}
+#job:hover {
+  transition: 0.25s;
+  font-size: 45px;
+}
